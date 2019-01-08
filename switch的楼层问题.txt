@@ -1,0 +1,37 @@
+# include <stdio.h>
+
+int main(void)
+{
+	int k;
+
+	printf("请输入您要进入的楼层： ");
+	scanf("%d",&k);
+
+	switch(k)
+	{
+		case 1:
+	     printf("1楼开\n");
+		 break;
+         
+		case 2:
+		 printf("2楼开\n");
+		 break;
+
+		case 3:
+		 printf("3楼开\n");
+         break;
+			 
+		case 4:
+		 printf("4楼开\n");
+		 break;
+
+     	default:
+			printf("暂时无五楼\n");
+
+
+
+
+	}
+
+	return 0;
+}

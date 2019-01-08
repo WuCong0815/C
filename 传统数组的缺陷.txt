@@ -1,0 +1,18 @@
+# include<stdio.h>
+void pArr(int * p,int len)
+{
+	p[2] = 88;
+}
+void f(void)
+{
+	int a[4] = {1, 2, 3, 4};
+	pArr(a, 4);
+	printf("%d\n", a[2]);
+
+}
+int main(void)
+{
+	f();
+	return 0;
+
+}

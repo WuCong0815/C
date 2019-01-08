@@ -1,0 +1,28 @@
+# include <stdio.h>
+
+int main(void)
+{
+
+	int vat;
+	int m;
+	int sum = 0;
+
+    printf("请输入您想要判断数字：");
+	scanf("%d",&vat);
+
+	m = vat;
+	while(m)
+	{
+
+		sum =sum * 10 + m %10;
+		m /= 10;
+
+	}
+
+	if(vat == sum)
+		printf("您输入的数是回文数\n");
+	else
+		printf("您输入的数不是回文数\n");
+
+	return 0;
+}

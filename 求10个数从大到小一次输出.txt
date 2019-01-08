@@ -1,0 +1,32 @@
+# include <stdio.h>
+
+int main(void)
+{
+	int a[10];
+	int i;
+	int j;
+	int k;
+
+	printf("请依次输入10个数\n");
+	for(i = 0; i < 10; i++)
+		scanf("%d", &a[i]);
+	
+	for(i = 0; i < 9; i++)
+	{
+	    for(j = i; j < 9; j++)
+		
+                 
+			if(a[i] > a[i+1])
+			{
+                           k = a[i];
+			   a[i] = a[i+1];
+			   a[i+1] =k;
+			}
+			
+	}
+	
+        printf("10个数从大到小排列为：\n");
+	for(i = 9; i >= 0; i--)
+	printf("%d ",a[i]);
+	return 0;
+}

@@ -1,0 +1,36 @@
+# include <stdio.h>
+
+int main (void)
+{
+	char a = 'B';char b = 'o';char c = 'y';
+	putchar(a);
+	putchar(b);
+	putchar(c);
+	putchar('\n');
+
+	return 0;
+
+}
+
+
+
+
+
+
+
+Àı¶ş£º
+# include <stdio.h>
+
+int main (void)
+{
+	int a = 66;
+	int b = 79;
+	int c = 89;
+
+	putchar(a);
+	putchar(b);
+	putchar(c);
+	putchar('\n');
+	return 0;
+
+}

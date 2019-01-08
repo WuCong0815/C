@@ -1,0 +1,21 @@
+# include <stdio.h>
+
+int main (void)
+{
+    int i;
+	int k;
+	int sum = 0;
+
+	printf("请输入一个较大的整数： ");
+	scanf("%d\n",&k);
+
+  	for(i=1; i<=k; i++)
+	{
+          if(i/2!=0)
+            sum+=i;
+	}
+      printf("从1到您赋值的数的奇数和：\n");
+      pritf("%d\n",sum);
+
+	return 0;
+}
